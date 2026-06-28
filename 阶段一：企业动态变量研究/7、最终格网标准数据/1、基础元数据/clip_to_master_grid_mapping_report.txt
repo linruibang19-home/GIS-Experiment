@@ -1,0 +1,15 @@
+clip格网 -> 主格网 映射报告
+============================================================
+
+clip格网总数: 29755
+未匹配数: 0
+Join_Count != 1 数量: 0
+边界格网数量(boundary_mask=1): 1815
+最大质心偏移距离: 353.543515 m
+
+字段说明：
+  old_grid_id  : 旧 clip 格网ID
+  new_grid_id  : 新主格网ID（RxxxCxxx）
+  cover_ratio  : clip格网面积 / 完整主格网面积
+  boundary_mask: 边界格网标记（0/1）
+  valid_mask   : 广州市内有效格网标记（clip映射到的均为1）

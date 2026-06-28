@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-06-06 01:21:45",
+  "version": "stage1_enhanced_csv_figures_v3",
+  "figure_count": 24,
+  "formats": [
+    "png_600ppi",
+    "pdf",
+    "svg"
+  ],
+  "source_csv": {
+    "grid_panel": "D:\\研究生\\论文\\高新技术企业空间集聚\\GIS_new_experiment\\阶段一：企业动态变量研究\\7、最终格网标准数据\\2、面板数据\\master_grid_year_panel.csv",
+    "firm_points": "D:\\研究生\\论文\\高新技术企业空间集聚\\GIS_new_experiment\\阶段一：企业动态变量研究\\8、最终点位数据\\1、主格网对齐点位表\\firm_year_points_2015_2024.csv",
+    "full_grid_panel": "D:\\研究生\\论文\\高新技术企业空间集聚\\GIS_new_experiment\\阶段一：企业动态变量研究\\9、最终DL格网标准数据\\2、面板数据\\master_full_grid_year_panel.csv"
+  },
+  "validation": [
+    {
+      "check_item": "点位表年度记录数 = 有效格网面板active_cnt年度总和",
+      "result": "PASS",
+      "max_abs_diff": 0
+    },
+    {
+      "check_item": "完整格网面板valid_mask年度总数 = 有效格网面板valid_mask年度总数",
+      "result": "PASS",
+      "max_abs_diff": 0
+    },
+    {
+      "check_item": "完整格网年度单元数稳定",
+      "result": "PASS",
+      "max_abs_diff": 0
+    },
+    {
+      "check_item": "年份范围为2015-2024",
+      "result": "PASS",
+      "max_abs_diff": 0
+    }
+  ],
+  "note": "Enhanced descriptive figures based only on stage-one CSV outputs 7, 8 and 9."
+}
